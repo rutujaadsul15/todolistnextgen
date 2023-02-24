@@ -19,6 +19,7 @@ public class TaskDetailImpl implements TaskDetailService {
     @Override
     public TaskDetails addTaskInfo(TaskDetails taskDetails) {
         System.out.println("we are in add task method");
+        System.out.println("ok");
         if (taskDetails.getStatus() == null) {
             taskDetails.setStatus(TaskStatus.NOT_STARTED);
         }

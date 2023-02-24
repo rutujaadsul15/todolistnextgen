@@ -8,6 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @EnableJpaAuditing
 public class TodolistnextgenApplication {
 	public static void main(String[] args) {
+		System.out.println("App started");
 		SpringApplication.run(TodolistnextgenApplication.class, args);
 	}
 
